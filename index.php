@@ -1,3 +1,7 @@
+<?php
+	echo "php works";
+?>
+
 <!doctype html>
 <html>
   <head>
