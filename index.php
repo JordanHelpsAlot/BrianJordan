@@ -1,5 +1,10 @@
 <?php
-	echo "php works";
+	$adjective = "cool";
+	echo "Brian is..."
+	for ($i = 0; $i<10; i++){
+		echo "<div>".$i.": $adjective</div>";
+	}
+	echo "<div>not.</div>"
 ?>
 
 <!doctype html>
