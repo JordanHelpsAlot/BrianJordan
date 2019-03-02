@@ -1,7 +1,7 @@
 <?php
 	$adjective = "cool";
 	echo "Brian is...";
-	for ($i = 0; $i<10; $i++){
+	for ($i = 1; $i<9; $i++){
 		echo "<div>".$i.": $adjective</div>";
 	}
 	echo "<div>not.</div>";
