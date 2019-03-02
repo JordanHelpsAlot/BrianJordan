@@ -1,6 +1,6 @@
 <?php
 	$adjective = "cool";
-	echo "Brian is..."
+	echo "Brian is...";
 	for ($i = 0; $i<10; i++){
 		echo "<div>".$i.": $adjective</div>";
 	}
