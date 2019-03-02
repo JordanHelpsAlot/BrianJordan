@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    <img src="abed_is_cool.jpg" style="width: 200px; display: inline;">
+    <img src="abed_is_cool.jpg" style="width: 200px; margin-left: auto; margin-right: auto; display: inline;">
     <p>Hey Abed. This is your website. It will obey you.</p>
     <label for="a">Enter Your Wishes</label>
     <input name="a" type="text" />
