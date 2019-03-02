@@ -25,7 +25,9 @@
 	<div>
 		<?php
 			$wish = $_POST['wish'];
-			echo "<div>$wish: Granted</div>";
+			if(!empty($wish)){
+				echo "<div>$wish: Granted</div>";
+			}
 		?>
 	</div>
   </body>
