@@ -18,8 +18,15 @@
   <body>
     <img src="abed_is_cool.jpg" style="width: 200px; margin-left: auto; margin-right: auto; display: inline;">
     <p>Hey Abed. This is your website. It will obey you.</p>
-    <label for="a">Enter Your Wishes</label>
-    <input name="a" type="text" />
-
+    <form action="index.php" method="POST">
+	    <label for="wish">Enter Your Wishes</label>
+	    <input name="wish" type="text" />
+	</form>
+	<div>
+		<?php
+			$wish = $_POST['wish'];
+			echo "<div>$wish: Granted</div>";
+		?>
+	</div>
   </body>
 </html>
