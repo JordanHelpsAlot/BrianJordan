@@ -6,4 +6,4 @@ Digital Ocean:
 Droplet:
 	user: root
 	pass: bj96
-	ssh: ssh root@157.230.218.241
+	To ssh: ssh root@157.230.218.241

@@ -1,10 +1,10 @@
 <?php
-	$adjective = "cool";
-	echo "Brian is...";
+	$adjective = "<3";
+	echo "Abed is...";
 	for ($i = 1; $i<9; $i++){
 		echo "<div>".$i.": $adjective</div>";
 	}
-	echo "<div>not.</div>";
+	echo "<div>For real.</div>";
 ?>
 
 <!doctype html>
