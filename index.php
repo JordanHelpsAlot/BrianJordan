@@ -26,7 +26,14 @@
 		<?php
 			$wish = $_POST['wish'];
 			if(!empty($wish)){
-				echo "<div>$wish: Granted</div>";
+				echo "<div>";
+				if($wish=="spank me"){
+					echo "Your punishment will come when you least deserve it";
+				}
+				else{
+					echo "$wish: Granted";
+				}
+				echo "</div>";
 			}
 		?>
 	</div>
