@@ -4,7 +4,7 @@
 	for ($i = 0; $i<10; i++){
 		echo "<div>".$i.": $adjective</div>";
 	}
-	echo "<div>not.</div>"
+	echo "<div>not.</div>";
 ?>
 
 <!doctype html>
