@@ -27,5 +27,6 @@
 			}
 		?>
 	</div>
+	<strong><a href="roulette/index.php">Roulette</a></strong>
   </body>
 </html>
