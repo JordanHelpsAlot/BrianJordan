@@ -15,6 +15,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
+  	#main{
+  		height: 100vh;
+  	}
+
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
@@ -58,12 +62,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#">BJ Productions</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="../index.php">Home</a></li>
+        <li class="active"><a href="#">Roulette</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -74,26 +78,25 @@
   </div>
 </nav>
   
-<div class="container-fluid text-center">    
+<div id="main" class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
       <p><a href="#">Link</a></p>
       <p><a href="#">Link</a></p>
       <p><a href="#">Link</a></p>
     </div>
-    <div class="col-sm-8 text-left"> 
-      <h1>Welcome</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="col-sm-8"> 
+      <h1>Roulette</h1>
+      <i>choose a show my dude...</i>
+      <select name="show" id="show" placeholder="Choose your show...">
+      	<option value="Test" name="show" >Test</option>
+      </select>
+      <p>What up!!! We're two cool guys looking for other cool guys who wanna hang out in our party mansion. Nothing sexual. Dudes in good shape encouraged, if you're fat you should be able to find humor in the little things. Again, NOTHING SEXUAL.</p>
       <hr>
-      <h3>Test</h3>
-      <p>Lorem ipsum...</p>
-    </div>
+      <h3>Stuff</h3>
+   </div>
     <div class="col-sm-2 sidenav">
       <div class="well">
-        <p>ADS</p>
-      </div>
-      <div class="well">
-        <p>ADS</p>
       </div>
     </div>
   </div>
