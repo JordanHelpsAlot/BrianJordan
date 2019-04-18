@@ -1,0 +1,24 @@
+[Sat Mar 02 23:38:59.403250 2019] [mpm_prefork:notice] [pid 20900] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Mar 02 23:38:59.403322 2019] [core:notice] [pid 20900] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Mar 02 23:41:31.176318 2019] [mpm_prefork:notice] [pid 20900] AH00169: caught SIGTERM, shutting down
+[Sat Mar 02 23:41:32.239640 2019] [mpm_prefork:notice] [pid 21706] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Mar 02 23:41:32.239713 2019] [core:notice] [pid 21706] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Mar 03 06:25:02.519529 2019] [mpm_prefork:notice] [pid 21706] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Sun Mar 03 06:25:02.600404 2019] [mpm_prefork:notice] [pid 21706] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 03 06:25:02.600427 2019] [core:notice] [pid 21706] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Mar 04 06:25:03.387023 2019] [mpm_prefork:notice] [pid 21706] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Mon Mar 04 06:25:03.484310 2019] [mpm_prefork:notice] [pid 21706] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Mon Mar 04 06:25:03.484331 2019] [core:notice] [pid 21706] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Mar 05 06:25:01.525558 2019] [mpm_prefork:notice] [pid 21706] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Mar 05 06:25:01.615044 2019] [mpm_prefork:notice] [pid 21706] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Tue Mar 05 06:25:01.615065 2019] [core:notice] [pid 21706] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 06 06:25:01.508799 2019] [mpm_prefork:notice] [pid 21706] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Mar 06 06:25:01.596353 2019] [mpm_prefork:notice] [pid 21706] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Mar 06 06:25:03.157044 2019] [core:notice] [pid 21706] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Mar 07 00:52:26.645947 2019] [mpm_prefork:notice] [pid 21706] AH00169: caught SIGTERM, shutting down
+[Thu Mar 07 00:52:26.760008 2019] [mpm_prefork:notice] [pid 1425] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Thu Mar 07 00:52:26.760062 2019] [core:notice] [pid 1425] AH00094: Command line: '/usr/sbin/apache2'
