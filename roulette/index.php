@@ -115,7 +115,7 @@
 			e.preventDefault();
 			$choose_show = $("#choose_show").val();
 			$.post("generate_url.php", {choose_show: $choose_show}, function(result){
-				window.open($choose_show);
+				window.open(result);
 			});
 		});
 	</script>
