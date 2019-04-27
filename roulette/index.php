@@ -94,6 +94,7 @@
       <p>What up!!! We're two cool guys looking for other cool guys who wanna hang out in our party mansion. Nothing sexual. Dudes in good shape encouraged, if you're fat you should be able to find humor in the little things. Again, NOTHING SEXUAL.</p>
       <hr>
       <h3>Stuff</h3>
+      <a href="generate_url.php">Url Generator</a>
    </div>
     <div class="col-sm-2 sidenav">
       <div class="well">
