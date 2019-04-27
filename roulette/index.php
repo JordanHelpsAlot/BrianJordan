@@ -113,7 +113,7 @@
 	<script type="text/javascript">
 		$("#roulette_form").submit(function(e){
 			e.preventDefault();
-			$choose_show = $("#choose_show").value();
+			$choose_show = $("#choose_show").val();
 			alert($choose_show);
 			$.post("generate_url.php", {choose_show: txt}, function(result){
 				alert(result);
