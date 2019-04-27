@@ -88,9 +88,11 @@
     <div class="col-sm-8"> 
       <h1>Roulette</h1>
       <i>choose a show my dude...</i>
-      <select name="show" id="show" placeholder="Choose your show...">
-      	<option value="Test" name="show" >Test</option>
-      </select>
+      <form method="post" action="generate_url.php">
+        <select name="choose_show" id="choose_show" placeholder="Choose your show...">
+        	<option value="0" >Monty Python & The Holy Grail</option>
+        </select>
+      </form>
       <p>What up!!! We're two cool guys looking for other cool guys who wanna hang out in our party mansion. Nothing sexual. Dudes in good shape encouraged, if you're fat you should be able to find humor in the little things. Again, NOTHING SEXUAL.</p>
       <hr>
       <h3>Stuff</h3>
