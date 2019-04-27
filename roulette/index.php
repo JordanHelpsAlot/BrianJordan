@@ -91,6 +91,7 @@
       <form method="post" action="generate_url.php">
         <select name="choose_show" id="choose_show" placeholder="Choose your show...">
         	<option value="0" >Monty Python & The Holy Grail</option>
+          <option value="1" >The Graduate</option>
         </select>
         <input type="submit" value="submit" />
       </form>
