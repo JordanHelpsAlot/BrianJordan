@@ -6,8 +6,8 @@ $show_array[0]["length"] = 5520;
 $curr_show_index = 0;
 $random_t = rand(1, $show_array[$curr_show_index]["length"]);
 
-echo $random_t;
-
+$random_url = $base_url.$show_array[$curr_show_index]["id"].'?t='.$random_t;
+echo "<a href='$random_url'>$random_url</a>"
 
 
 ?>
