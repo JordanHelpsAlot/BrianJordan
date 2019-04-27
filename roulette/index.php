@@ -88,7 +88,7 @@
     <div class="col-sm-8"> 
       <h1>Roulette</h1>
       <i>choose a show my dude...</i>
-      <form method="post" action="generate_url.php">
+      <form id="roulette_form" method="post" action="generate_url.php">
         <select name="choose_show" id="choose_show" placeholder="Choose your show...">
         	<option value="0" >Monty Python & The Holy Grail</option>
           <option value="1" >The Graduate</option>
@@ -110,6 +110,12 @@
 <footer class="container-fluid text-center">
   <p>Footer Text</p>
 </footer>
-
+  <script type="text/javascript">
+    $("#roulette_form").submit(function(e){
+      e.preventDefault();
+      alert("yo");
+      e.submit();
+    });
+  </script>
 </body>
 </html>
