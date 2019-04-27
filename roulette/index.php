@@ -92,6 +92,7 @@
         <select name="choose_show" id="choose_show" placeholder="Choose your show...">
         	<option value="0" >Monty Python & The Holy Grail</option>
         </select>
+        <input type="submit" value="submit" />
       </form>
       <p>What up!!! We're two cool guys looking for other cool guys who wanna hang out in our party mansion. Nothing sexual. Dudes in good shape encouraged, if you're fat you should be able to find humor in the little things. Again, NOTHING SEXUAL.</p>
       <hr>
