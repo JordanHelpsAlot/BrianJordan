@@ -10,7 +10,7 @@ $curr_show_index = $_POST['choose_show'];
 $random_t = rand(1, $show_array[$curr_show_index]["length"]);
 
 $random_url = $base_url.$show_array[$curr_show_index]["id"].'?t='.$random_t;
-echo "<a href='$random_url' target=_blank>$random_url</a>";
+echo $random_url;
 
 
 ?>
