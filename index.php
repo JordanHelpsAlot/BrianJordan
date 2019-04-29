@@ -2,7 +2,8 @@
 	//Our Site
 	//PHP Section, go crazy
 	//BLACK&JACK PRODUCTIONS
-
+    $page_name = "Home";
+    include("navbar_template.php");
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +53,7 @@
   </style>
 </head>
 <body>
-
+<!--
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -76,7 +77,7 @@
     </div>
   </div>
 </nav>
-  
+-->  
 <div id="main" class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">

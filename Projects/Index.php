@@ -4,7 +4,7 @@
     include("navbar_template.php");
 ?>
 
-class="<?php if ($page_name == "Projects") {echo "active";} ?>";
+<!--class="<?php if ($page_name == "Projects") {echo "active";} ?>"; -->
 
 
 <html lang="en">
