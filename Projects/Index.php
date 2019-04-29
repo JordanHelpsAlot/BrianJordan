@@ -1,10 +1,3 @@
-<?php
-	//Our Site
-	//PHP Section, go crazy
-	//BLACK&JACK PRODUCTIONS
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,8 +60,8 @@
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
 				<li><a href="../index.php">Home</a></li>
-				<li><a href="#">Roulette</a></li>
-				<li  class="active"><a href="../Projects.php">Projects</a></li>
+				<li><a href="../roulette/index.php">Roulette</a></li>
+				<li  class="active"><a href="../Projects/Index.php">Projects</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
