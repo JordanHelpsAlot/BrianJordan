@@ -7,6 +7,8 @@
 ?>
 
 <!DOCTYPE html>
+class="<?php if ($page_name == "Home") {echo "active";} ?>";
+
 <html lang="en">
 <head>
   <title>Bootstrap Example</title>
