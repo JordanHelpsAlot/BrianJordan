@@ -58,9 +58,9 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li><a href="../index.php" class="<?php if($this->uri->uri_string() == '/index') { echo 'active'; } ?>">Home</a></li>
-				<li><a href="../roulette/index.php" class="<?php if($this->uri->uri_string() == '/roulette/index') { echo 'active'; } ?>">Roulette</a></li>
-				<li><a href="../Projects/index.php" class="<?php if($this->uri->uri_string() == '/Projects/index') { echo 'active'; } ?>">Projects</a></li>
+				<li><a href="../index.php">Home</a></li>
+				<li><a href="../roulette/index.php">Roulette</a></li>
+				<li><a href="../Projects/index.php">Projects</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
