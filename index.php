@@ -3,8 +3,7 @@
 	//PHP Section, go crazy
 	//BLACK&JACK PRODUCTIONS
     $page_name = "Home";
-    include("navbar_template.php");
-    echo $this->uri->uri_string()
+    include("../navbar_template.php");
 ?>
 
 <!DOCTYPE html>
@@ -54,31 +53,7 @@
   </style>
 </head>
 <body>
-<!--
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">BJ Productions</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="roulette/index.php">Roulette</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
--->  
+
 <div id="main" class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
@@ -127,14 +102,4 @@
 </body>
 </html>
 
-
-<!doctype html>
-<html>
-  <head>
-    <title>Hey babe</title>
-  </head>
-
-  <body>
-	
-  </body>
 </html>

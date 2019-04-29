@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <?php
     $page_name = "Projects";
-    include("navbar_template.php");
-    echo $this->uri->uri_string()
+    include("../navbar_template.php");
+
 ?>
 
 <html lang="en">
