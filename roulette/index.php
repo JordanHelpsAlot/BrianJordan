@@ -4,6 +4,7 @@
 	//BLACK&JACK PRODUCTIONS
     $page_name = "Roulette";
     include("navbar_template.php");
+    echo $this->uri->uri_string()
 ?>
 
 <!DOCTYPE html>

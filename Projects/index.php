@@ -2,6 +2,7 @@
 <?php
     $page_name = "Projects";
     include("navbar_template.php");
+    echo $this->uri->uri_string()
 ?>
 
 <html lang="en">
