@@ -3,7 +3,7 @@
 	//PHP Section, go crazy
 	//BLACK&JACK PRODUCTIONS
     $page_name = "Home";
-    include("../navbar_template.php");
+    include("navbar_template.php");
 ?>
 
 <!DOCTYPE html>
