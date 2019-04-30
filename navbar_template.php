@@ -58,9 +58,9 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li><a href="../index.php" class="<?php if ($page_name == "Home") {echo 'active';} ?>">Home</a></li>
-				<li><a href="../roulette/index.php" class="<?php if ($page_name == "Roulette") {echo 'active';} ?>">Roulette</a></li>
-				<li><a href="../Projects/index.php" class="<?php if ($page_name == "Projects") {echo 'active';} ?>">Projects</a></li>
+				<li class="<?php if ($page_name == "Home") {echo 'active';} ?>"><a href="../index.php">Home</a></li>
+				<li class="<?php if ($page_name == "Roulette") {echo 'active';} ?>"><a href="../roulette/index.php">Roulette</a></li>
+				<li class="<?php if ($page_name == "Projects") {echo 'active';} ?>"><a href="../Projects/index.php">Projects</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">

@@ -2,7 +2,6 @@
 <?php
     $page_name = "Projects";
     include("../navbar_template.php");
-
 ?>
 
 <html lang="en">
