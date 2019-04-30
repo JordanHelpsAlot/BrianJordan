@@ -58,6 +58,7 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
+				<?php echo "test" ?>
 				<li><a href="../index.php" class="<?php if ($page_name == "Home") {echo "active";} ?>";>Home</a></li>
 				<li><a href="../roulette/index.php" class="<?php if ($page_name == "roulette") {echo "active";} ?>";>Roulette</a></li>
 				<li><a href="../Projects/index.php" class="<?php if ($page_name == "Projects") {echo "active";} ?>";>Projects</a></li>
